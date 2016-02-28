@@ -17,7 +17,8 @@ LocationContext Number("13");
 LocationContext Unit("2B");
 
 Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
-'''
+```
+
 ## Contexting with a non-terminal address (i.e. down to a zip code)
 ## Contexting a traditional Japanese style address
 ## Contexting by combining two contexts
