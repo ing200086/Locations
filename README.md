@@ -7,6 +7,17 @@
   The location class will not validate locations. It will allow the user to enter any string of contexts in any order. I am expecting I will need to change this in the future, but for now I am assuming the user will always enter the context from largest to smallest, but again the system has no idea which context is larger.
 # User cases
 ## Contexting a traditional US style address
+```c++
+LocationContext Country("USA");
+LocationContext State("TX");
+LocationContext City("Houston");
+LocationContext ZipCode("77022");
+LocationContext Street("Linden Street");
+LocationContext Number("13");
+LocationContext Unit("2B");
+
+Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
+'''
 ## Contexting with a non-terminal address (i.e. down to a zip code)
 ## Contexting a traditional Japanese style address
 ## Contexting by combining two contexts
