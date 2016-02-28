@@ -18,8 +18,34 @@ LocationContext Unit("2B");
 
 Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
 ```
-
 ## Contexting with a non-terminal address (i.e. down to a zip code)
+```c++
+LocationContext Conutry("USA");
+LocationContext State("TX");
+LocationContext City("Houston");
+LocationContext ZipCode("77022");
+
+Country.refineTo(State).refineTo(City).refineTo(ZipCode);
+```
 ## Contexting a traditional Japanese style address
 ## Contexting by combining two contexts
+```c++
+LocationContext Country("USA");
+LocationContext State("TX");
+LocationContext City("Houston");
+LocationContext ZipCode("77022");
+LocationContext Street("Linden Street");
+LocationContext CrossStreet("Main Street");
+
+Country.refineTo(State).refineTo(City).refineTo(ZipCode).intersectionOf(Street).and(CrossStreet);
+```
 ## Contexting by landmarks
+```c++
+LocationContext Country("Kenya");
+LocationContext State("Malindi");
+LocationLandmark Tree("Big Tree");
+LocationLandmark Building("City Hall");
+LocationLandmark River("Yellow River");
+
+Country.refineTo(State).between(Tree).and(Building).and(River);
+```
