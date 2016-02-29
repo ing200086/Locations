@@ -31,9 +31,9 @@ LocationContext State("TX");
 LocationContext City("Houston");
 LocationContext ZipCode("77022");
 
-Country.refineTo(State).refineTo(City).refineTo(ZipCode);
+LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode);
 
-ASSERT_THAT(ZipCode.toString(), Eq("77022 Houston TX USA");
+ASSERT_THAT(myLocation.toString(), Eq("77022 Houston TX USA");
 ```
 ## Contexting a traditional Japanese style address
 ## Contexting by combining two contexts
@@ -42,20 +42,27 @@ LocationContext Country("USA");
 LocationContext State("TX");
 LocationContext City("Houston");
 LocationContext ZipCode("77022");
+
 LocationContext Street("Linden Street");
 LocationContext CrossStreet("Main Street");
 
-Country.refineTo(State).refineTo(City).refineTo(ZipCode).intersectionOf(Street).and(CrossStreet);
-ASSERT_THAT(CrossStreet.toString(), Eq("Intersection of Linden Street and Main Street 77022 Houston TX USA"));
+CombinedContext LocationOfIntersection.isIntersectionOf(Street).and(CrossStreet);
+
+LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(LocationOfIntersection);
+
+ASSERT_THAT(myLocation.toString(), Eq("Intersection of Linden Street and Main Street 77022 Houston TX USA"));
 ```
 ## Contexting by landmarks
 ```c++
 LocationContext Country("Kenya");
 LocationContext State("Malindi");
-LocationLandmark Tree("Big Tree");
-LocationLandmark Building("City Hall");
-LocationLandmark River("Yellow River");
 
-Country.refineTo(State).between(Tree).and(Building).and(River);
-ASSERT_THAT(River.toString(), Eq("Between Big Tree and City Hall, and Yellow River Milndi Kenya"));
+LocationContext Tree("Big Tree");
+LocationContext Building("City Hall");
+LocationContext River("Yellow River");
+
+CombinedContext LocationWithLandmarks.isBetween(Tree).and(Building).and(River);
+
+LocationContext myLocation = Country.refineTo(State).refineTo(LocationWithLandmarks);
+ASSERT_THAT(myLocation.toString(), Eq("Between Big Tree and City Hall, and Yellow River Milndi Kenya"));
 ```
