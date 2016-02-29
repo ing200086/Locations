@@ -20,9 +20,9 @@ LocationContext Street("Linden Street");
 LocationContext Number("13");
 LocationContext Unit("2B");
 
-Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
+LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
 
-ASSERT_THAT(Unit.toString(), Eq("2B 13 Linden Street 77022 Houston TX USA"));
+ASSERT_THAT(myLocation.toString(), Eq("2B 13 Linden Street 77022 Houston TX USA"));
 ```
 ## Contexting with a non-terminal address (i.e. down to a zip code)
 ```c++
