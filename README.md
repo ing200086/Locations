@@ -13,44 +13,44 @@ Actual physical locations are also not in scope. Currently locations will genera
 ## Contexting a traditional US style address
 ```c++
 LocationContext Country("USA");
+LocationContext ZipCode("77022");
 LocationContext State("TX");
 LocationContext City("Houston");
-LocationContext ZipCode("77022");
 LocationContext Street("Linden Street");
 LocationContext Number("13");
 LocationContext Unit("2B");
 
-LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(Street).refineTo(Number).refineTo(Unit);
+LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City).refineTo(Street).refineTo(Number).refineTo(Unit);
 
-ASSERT_THAT(myLocation.toString(), Eq("2B 13 Linden Street 77022 Houston TX USA"));
+ASSERT_THAT(myLocation.toString(), Eq("2B 13 Linden Street Houston TX 77022 USA"));
 ```
 ## Contexting with a non-terminal address (i.e. down to a zip code)
 ```c++
-LocationContext Conutry("USA");
+LocationContext Country("USA");
+LocationContext ZipCode("77022");
 LocationContext State("TX");
 LocationContext City("Houston");
-LocationContext ZipCode("77022");
 
-LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode);
+LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City);
 
-ASSERT_THAT(myLocation.toString(), Eq("77022 Houston TX USA");
+ASSERT_THAT(myLocation.toString(), Eq("Houston TX 77022 USA");
 ```
 ## Contexting a traditional Japanese style address
 ## Contexting by combining two contexts
 ```c++
 LocationContext Country("USA");
+LocationContext ZipCode("77022");
 LocationContext State("TX");
 LocationContext City("Houston");
-LocationContext ZipCode("77022");
 
 LocationContext Street("Linden Street");
 LocationContext CrossStreet("Main Street");
 
 CombinedContext LocationOfIntersection.isIntersectionOf(Street).and(CrossStreet);
 
-LocationContext myLocation = Country.refineTo(State).refineTo(City).refineTo(ZipCode).refineTo(LocationOfIntersection);
+LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City).refineTo(LocationOfIntersection);
 
-ASSERT_THAT(myLocation.toString(), Eq("Intersection of Linden Street and Main Street 77022 Houston TX USA"));
+ASSERT_THAT(myLocation.toString(), Eq("Intersection of Linden Street and Main Street Houston TX 77022 USA"));
 ```
 ## Contexting by landmarks
 ```c++
