@@ -8,7 +8,8 @@ Additionally, some places can only be described by relating multiple sub-context
 # Out of scope
 The location class will not validate locations. It will allow the user to enter any string of contexts in any order. I am expecting I will need to change this in the future, but for now I am assuming the user will always enter the context from largest to smallest, but again the system has no idea which context is larger.
 
-Actual physical locations are also not in scope. Currently locations will generate descriptive locations, but in the future this can be added to the scope.
+Actual physical locations are also not in scope. Currently locations will generate descriptive locations, but in the future this can be added to the scope. Since this may be a downloaded database from data.gov or some other method, it is not critical to the current design.
+
 # User cases
 ## Contexting a traditional US style address
 ```c++
@@ -78,5 +79,5 @@ LocationContext River("Yellow River");
 CombinedContext LocationWithLandmarks.isBetween(Tree).and(Building).and(River);
 
 LocationContext myLocation = Country.refineTo(State).refineTo(LocationWithLandmarks);
-ASSERT_THAT(myLocation.toString(), Eq("Between Big Tree and City Hall, and Yellow River Milndi Kenya"));
+ASSERT_THAT(myLocation.toString(), Eq("Between Big Tree, City Hall, and Yellow River Malindi Kenya"));
 ```
