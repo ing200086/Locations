@@ -39,59 +39,20 @@ LocationGraph myLocationBottomToTop = Unit
 
 ASSERT_THAT(myLocationTopToBottom, Eq(myLocationBottomToTop));
 ```
-## Contexting with a non-terminal address (i.e. down to a zip code)
+## Creating a LocationGraph which has a combination of two nodes
 ```c++
-LocationNode Country("USA");
-LocationNode ZipCode("77022");
-LocationNode State("TX");
-LocationNode City("Houston");
-
-LocationGraph myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City);
-
-ASSERT_THAT(myLocation.toString(), Eq("Houston TX 77022 USA");
-```
-## Contexting a traditional Japanese style address
-```c++
-LocationContext Country("Japan");
-LocationContext PostalCode("100-6390");
-LocationContext Province("Tokyo-to");
-LocationContext Locality("Chiyoda-ku");
-LocationContext DependentLocality("Marunochi");
-LocationContext Street("Chome");
-LocationContext Number("2");
-
-LocationContext myLocation = Country.refineTo(PostalCode).refineTo(Province).refineTo(Locality).refineTo(DependentLocality).refineTo(Street).refineTo(Number);
-
-ASSERT_THAT(myLocation.toString(), Eq("2 Chome Marunochi Chiyoda-ku Tokyo-to 100-6390 Japan"));
-```
-
-## Contexting by combining two contexts
-```c++
-LocationNode Country("USA");
-LocationNode ZipCode("77022");
-LocationNode State("TX");
 LocationNode City("Houston");
 
 LocationNode Street("Linden Street");
 LocationNode CrossStreet("Main Street");
 
-LocationOfIntersection.isIntersectionOf(Street).and(CrossStreet);
+LocationNode Tree("Big Tree");
+LocationNode Building("City Hall");
+LocationNode River("Yellow River");
 
-LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City).refineTo(LocationOfIntersection);
+LocationGraph myLocationIntersection = City.intersectionOf(Street).and(CrossStreet);
+LocationGraph myLocationBetween = City.between(Tree).and(Building).and(River);
 
-ASSERT_THAT(myLocation.toString(), Eq("Intersection of Linden Street and Main Street Houston TX 77022 USA"));
-```
-## Contexting by landmarks
-```c++
-LocationContext Country("Kenya");
-LocationContext State("Malindi");
-
-LocationContext Tree("Big Tree");
-LocationContext Building("City Hall");
-LocationContext River("Yellow River");
-
-CombinedContext LocationWithLandmarks.isBetween(Tree).and(Building).and(River);
-
-LocationContext myLocation = Country.refineTo(State).refineTo(LocationWithLandmarks);
-ASSERT_THAT(myLocation.toString(), Eq("Between Big Tree, City Hall, and Yellow River Malindi Kenya"));
+ASSERT_THAT(myLocationIntersection.toString(), Eq("Intersection of Linden Street and Main Street Houston"));
+ASSERT_THAT(myLocationBetween.toString(), Eq("Between Big Tree, City Hall, and Yellow River Houston"));
 ```
