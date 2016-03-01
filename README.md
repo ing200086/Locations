@@ -11,47 +11,44 @@ The location class will not validate locations. It will allow the user to enter 
 Actual physical locations are also not in scope. Currently locations will generate descriptive locations, but in the future this can be added to the scope. Since this may be a downloaded database from data.gov or some other method, it is not critical to the current design.
 
 # User cases
-## Building a Context a from Scratch
+## Building a Context Graph a from Scratch
 ```c++
-LocationNode Country("USA");
-LocationNode ZipCode("77022");
-LocationNode State("TX");
-LocationNode City("Houston");
-LocationNode Street("Linden Street");
-LocationNode Number("13");
-LocationNode Unit("2B");
+LocationContext Country("USA");
+LocationContext ZipCode("77022");
+LocationContext State("TX");
+LocationContext City("Houston");
+LocationContext Street("Linden Street");
+LocationContext Number("13");
+LocationContext Unit("2B");
 
-LocationGraph myLocationTopToBottom = Country
-                                        .has(ZipCode)
-                                        .has(State)
-                                        .has(City)
-                                        .has(Street)
-                                        .has(Number)
-                                        .has(Unit);
-                                        
-LocationGraph myLocationBottomToTop = Unit
-                                        .isWithin(Number)
-                                        .isWithin(Street)
-                                        .isWithin(City)
-                                        .isWithin(State)
-                                        .isWithin(ZipCode)
-                                        .isWithin(Country);
+// Linking graph from top down
+City
+  .has(Street)
+  .has(Number)
+  .has(Unit);
 
-ASSERT_THAT(myLocationTopToBottom, Eq(myLocationBottomToTop));
+// Linking graph from bottom to the top
+City
+  .isWithin(State)
+  .isWithin(ZipCode)
+  .isWithin(Country);
+
 ```
 ## Creating a LocationGraph which has a combination of two nodes
 ```c++
-LocationNode City("Houston");
+LocationContext City("Houston");
 
-LocationNode Street("Linden Street");
-LocationNode CrossStreet("Main Street");
+LocationContext Street("Linden Street");
+LocationContext CrossStreet("Main Street");
 
-LocationNode Tree("Big Tree");
-LocationNode Building("City Hall");
-LocationNode River("Yellow River");
+LocationContext Tree("Big Tree").isWithin(City);
+LocationContext Building("City Hall").isWithin(City);
+LocationContext River("Yellow River").isWithin(City);
 
-LocationGraph myLocationIntersection = City.intersectionOf(Street).and(CrossStreet);
-LocationGraph myLocationBetween = City.between(Tree).and(Building).and(River);
+City.has(Street);
+Street.intersects(CrossStreet);
+
+LocationContext myLocation("Person A").isBetween(Tree).and(Building).and(River);
 
 ASSERT_THAT(myLocationIntersection.toString(), Eq("Intersection of Linden Street and Main Street Houston"));
 ASSERT_THAT(myLocationBetween.toString(), Eq("Between Big Tree, City Hall, and Yellow River Houston"));
