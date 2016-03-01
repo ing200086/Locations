@@ -11,28 +11,42 @@ The location class will not validate locations. It will allow the user to enter 
 Actual physical locations are also not in scope. Currently locations will generate descriptive locations, but in the future this can be added to the scope. Since this may be a downloaded database from data.gov or some other method, it is not critical to the current design.
 
 # User cases
-## Contexting a traditional US style address
+## Building a Context a from Scratch
 ```c++
-LocationContext Country("USA");
-LocationContext ZipCode("77022");
-LocationContext State("TX");
-LocationContext City("Houston");
-LocationContext Street("Linden Street");
-LocationContext Number("13");
-LocationContext Unit("2B");
+LocationNode Country("USA");
+LocationNode ZipCode("77022");
+LocationNode State("TX");
+LocationNode City("Houston");
+LocationNode Street("Linden Street");
+LocationNode Number("13");
+LocationNode Unit("2B");
 
-LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City).refineTo(Street).refineTo(Number).refineTo(Unit);
+LocationGraph myLocationTopToBottom = Country
+                                        .has(ZipCode)
+                                        .has(State)
+                                        .has(City)
+                                        .has(Street)
+                                        .has(Number)
+                                        .has(Unit);
+                                        
+LocationGraph myLocationBottomToTop = Unit
+                                        .isWithin(Number)
+                                        .isWithin(Street)
+                                        .isWithin(City)
+                                        .isWithin(State)
+                                        .isWithin(ZipCode)
+                                        .isWithin(Country);
 
-ASSERT_THAT(myLocation.toString(), Eq("2B 13 Linden Street Houston TX 77022 USA"));
+ASSERT_THAT(myLocationTopToBottom, Eq(myLocationBottomToTop));
 ```
 ## Contexting with a non-terminal address (i.e. down to a zip code)
 ```c++
-LocationContext Country("USA");
-LocationContext ZipCode("77022");
-LocationContext State("TX");
-LocationContext City("Houston");
+LocationNode Country("USA");
+LocationNode ZipCode("77022");
+LocationNode State("TX");
+LocationNode City("Houston");
 
-LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City);
+LocationGraph myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City);
 
 ASSERT_THAT(myLocation.toString(), Eq("Houston TX 77022 USA");
 ```
@@ -53,15 +67,15 @@ ASSERT_THAT(myLocation.toString(), Eq("2 Chome Marunochi Chiyoda-ku Tokyo-to 100
 
 ## Contexting by combining two contexts
 ```c++
-LocationContext Country("USA");
-LocationContext ZipCode("77022");
-LocationContext State("TX");
-LocationContext City("Houston");
+LocationNode Country("USA");
+LocationNode ZipCode("77022");
+LocationNode State("TX");
+LocationNode City("Houston");
 
-LocationContext Street("Linden Street");
-LocationContext CrossStreet("Main Street");
+LocationNode Street("Linden Street");
+LocationNode CrossStreet("Main Street");
 
-CombinedContext LocationOfIntersection.isIntersectionOf(Street).and(CrossStreet);
+LocationOfIntersection.isIntersectionOf(Street).and(CrossStreet);
 
 LocationContext myLocation = Country.refineTo(ZipCode).refineTo(State).refineTo(City).refineTo(LocationOfIntersection);
 
