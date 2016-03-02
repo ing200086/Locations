@@ -33,6 +33,13 @@ City
   .isWithin(ZipCode)
   .isWithin(Country);
 
+//Location Context should be able to describe itself
+ASSERT_THAT(Unit.describe(), Eq("2B"));
+
+//Using a Context should return however the writer should apply
+ASSERT_THAT(Unit.describe(new BottomToTopContextWriter().setDelimiter(" ")), Eq("2B 13 Linden Street Houston TX 77022 USA"));
+ASSERT_THAT(City.describe(new BottomToTopContextWriter().setDelimiter(" ")), Eq("Houston TX 77022 USA"));
+
 ```
 ## Creating a LocationGraph which has a combination of two nodes
 ```c++
