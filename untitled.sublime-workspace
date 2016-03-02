@@ -1,0 +1,811 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Dimen",
+				"Dimension"
+			],
+			[
+				"T",
+				"TEST"
+			],
+			[
+				"Ass",
+				"ASSERT_THAT"
+			],
+			[
+				"A",
+				"ASSERT_THAT"
+			],
+			[
+				"leng",
+				"length"
+			],
+			[
+				"elec",
+				"electricCurrent"
+			],
+			[
+				"time",
+				"time_"
+			],
+			[
+				"mass",
+				"mass_"
+			],
+			[
+				"Cre",
+				"CreateDimensional"
+			],
+			[
+				"CreateDimen",
+				"CreateDimensional"
+			],
+			[
+				"dim",
+				"dimSet_"
+			],
+			[
+				"Dim",
+				"Dimension"
+			],
+			[
+				"Di",
+				"Dimension"
+			],
+			[
+				"Test",
+				"TEST_F"
+			],
+			[
+				"lum",
+				"luminousIntensity"
+			],
+			[
+				"tem",
+				"temperature"
+			],
+			[
+				"amo",
+				"amountOfSubstance"
+			],
+			[
+				"am",
+				"amountOfSubstance_"
+			],
+			[
+				"ele",
+				"electricCurrent"
+			],
+			[
+				"l",
+				"luminousIntensity"
+			],
+			[
+				"unit",
+				"unitLength"
+			],
+			[
+				"ex",
+				"expectedAbbreviation_"
+			],
+			[
+				"exp",
+				"expectation"
+			],
+			[
+				"expectati",
+				"expectationAbbreviation"
+			],
+			[
+				"order",
+				"orderOfMagnitude_"
+			],
+			[
+				"ord",
+				"orderOfMagnitude_"
+			],
+			[
+				"expe",
+				"expectedAbbreviation_"
+			],
+			[
+				"or",
+				"orderOfMagnitude_"
+			],
+			[
+				"orde",
+				"orderOfMagnitude_"
+			],
+			[
+				"mea",
+				"measurement_"
+			],
+			[
+				"quantit",
+				"quantityOf"
+			],
+			[
+				"Item",
+				"ItemWithQuantity"
+			],
+			[
+				"WARE",
+				"warehouse_"
+			],
+			[
+				"TestValid",
+				"TestValidIntegerString"
+			],
+			[
+				"Number",
+				"NumberStringTester"
+			],
+			[
+				"Token",
+				"TokenTester"
+			],
+			[
+				"_",
+				"_stringToTest"
+			],
+			[
+				"inst",
+				"instanceMap"
+			],
+			[
+				"I",
+				"IGraphicsDriver"
+			],
+			[
+				"_P",
+				"_GraphicsDriverRegistrationSerivce"
+			],
+			[
+				"Ker",
+				"KernelLoadedWithMockPlugin"
+			],
+			[
+				"_reg",
+				"_regService"
+			],
+			[
+				"E",
+				"EXPECT_CALL"
+			],
+			[
+				"IP",
+				"IPluginToRegister"
+			],
+			[
+				"TEST",
+				"TEST_F"
+			],
+			[
+				"_pluginNot",
+				"_pluginNotLoadedID"
+			],
+			[
+				"_plu",
+				"_pluginID"
+			],
+			[
+				"_other",
+				"_otherPluginID"
+			],
+			[
+				"_Pl",
+				"_pluginID"
+			],
+			[
+				"Te",
+				"TEST_F"
+			],
+			[
+				"PluginRegistrationServ",
+				"PluginRegistrationServiceTestMocks	(PluginRegistrationServiceTest.cpp)"
+			],
+			[
+				"Plu",
+				"PluginRegistrationService"
+			],
+			[
+				"_plug",
+				"_plugin"
+			],
+			[
+				"Set",
+				"SetUpMockPlugin"
+			],
+			[
+				"PluginRegistrationSer",
+				"PluginRegistrationServiceWithRegisteredPlugin"
+			],
+			[
+				"Plugin",
+				"PluginRegistrarProviderTest	(PluginRegistrarProviderTest.cpp)"
+			],
+			[
+				"M",
+				"MockPluginToRegister"
+			],
+			[
+				"_plugin",
+				"_pluginID"
+			],
+			[
+				"Plugi",
+				"PluginRegistrationServiceWill"
+			],
+			[
+				"IPl",
+				"IPluginRegistrarService"
+			],
+			[
+				"_plugi",
+				"_pluginKernel"
+			],
+			[
+				"IPlu",
+				"IPluginForKernel"
+			],
+			[
+				"Plug",
+				"PluginRegistrarProvider"
+			],
+			[
+				"Mock",
+				"MockSharedLibraryLoader"
+			],
+			[
+				"Pul",
+				"PluginInstanceConstructedWithNameAndMockSharedLibLoader"
+			],
+			[
+				"plugin",
+				"pluginName"
+			],
+			[
+				"plu",
+				"pluginName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n	\"folders\":\n	[\n		{\n			\"path\": \".\"\n		}\n	]\n}\n",
+			"file": "untitled.sublime-project",
+			"file_size": 45,
+			"file_write_time": 131013950310728913,
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "syntax: c++",
+		"selected_items":
+		[
+			[
+				"syntax: c++",
+				"Set Syntax: C++11"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"#ifn",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"gtest",
+				"Set Syntax: gtestResults"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"#IFN	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"#IFN",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"CONTROL",
+				"Package Control: Remove Package"
+			],
+			[
+				"cmake",
+				"Set Syntax: CMakeEditor"
+			],
+			[
+				"#",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"#if	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"#ifn	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"#	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"termin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/daniel/Workspace/Locations"
+	],
+	"file_history":
+	[
+		"/home/daniel/Workspace/UnitsOfMeasure/src/PhysicalDimension/include/physicalDimension.h",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/PhysicalDimension/TestCreation.cpp",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/Atomics/TestCreation.cpp",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/PhysicalDimension/TestOperations.cpp",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/PhysicalDimension/test.h",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/PhysicalDimension/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/Atomics/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/src/PhysicalDimension/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/build/Testing/Temporary/LastTest.log",
+		"/home/daniel/Workspace/UnitsOfMeasure/src/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/dimension.cpp",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp",
+		"/home/daniel/Workspace/boostTest/example.cpp",
+		"/home/daniel/Workspace/boostTest/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/CMakeLists.txt",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/SI_Length.h",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp",
+		"/home/daniel/Workspace/UnitsOfMeasure/test/Unit/Quantity/CMakeLists.txt",
+		"/home/daniel/Workspace/Warehouse/test/Unit/Warehouse/CMakeLists.txt",
+		"/home/daniel/Workspace/Warehouse/test/Unit/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Integration/MathTokenizer/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Integration/MathTokenizer/MathTokenizerTest.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Integration/main.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Integration/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/include/IToken.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer/MathTokenizer.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer/MathTokenizer.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/build/Testing/Temporary/LastTest.log",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/NumberTest.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/include/NumberTest.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/include/WordTest.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/include/TokenTest.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/include/Word.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/include/Base.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/include/Number.h",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/src/CMakeLists.txt",
+		"/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/AcceptanceTests/UserCase01/UserCase01.cpp",
+		"/home/daniel/Workspace/PluginArch/test/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/OpenGLGraphicsDriver/OpenGLGraphicsDriver.cpp",
+		"/home/daniel/Workspace/PluginArch/src/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/src/PluginService/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTest.h",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/Plugin/Plugin.cpp",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/Plugin/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/OpenGLGraphicsDriver/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/PluginRegistrationService/PluginRegistrationService.cpp",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/AcceptanceTests/UserCase01/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/Kernel/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/Plugin/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProvider/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/SharedLibrary/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/Kernel.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginRegistrarProvider.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/Kernel.cpp",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/SharedLibraryTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/build/Testing/Temporary/LastTest.log",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTest.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/build/Testing/Temporary/LastTestsFailed.log",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginRegistrarService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarProvider/PluginRegistrarProvider.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/Kernel.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarProvider/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProvider/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProvider/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarFactory/PluginRegistrarFactory.h",
+		"/home/daniel/Workspace/PluginArch/terminal.glue",
+		"/usr/share/applications/sublime-text2.desktop",
+		"/usr/share/applications/gksu.desktop",
+		"/usr/share/applications/sublime-text-2.desktop",
+		"/usr/share/applications/.desktop",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/Plugin.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/PluginTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/CMakeLists.txt",
+		"/usr/share/applications/.desktep",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/Kernel/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/test/Kernel/CMakeLists.txt",
+		"/home/daniel/.gitconfig"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"<>",
+			" T",
+			"T",
+			"<>",
+			"<double>",
+			"T",
+			"<T>",
+			"Dimension",
+			"B",
+			"OfEquivalentPowersCanBeSubtractedToProduceSameEquivalent",
+			"length",
+			"Dimension(",
+			"Dimension",
+			"Int",
+			"int",
+			"luminousTensity",
+			"Int",
+			"int",
+			"Int",
+			"int",
+			"Int",
+			"int",
+			"return ",
+			"dimSet_)",
+			"(0, 0, 0, 0, 0, 0, 0)",
+			"CreateDimensional(dimSet_);",
+			"// TEST_F(CreateBasicDimension, Length) {\n//     dimSet_.length = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, Mass) {\n//     dimSet_.mass = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, Time) {\n//     dimSet_.time = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, ElectricCurrent) {\n//     dimSet_.electricCurrent = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, Temperature) {\n//     dimSet_.temperature = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, LuminousIntensity) {\n//     dimSet_.luminousIntensity = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }\n\n// TEST_F(CreateBasicDimension, AmountOfSubstance) {\n//     dimSet_.amountOfSubstance = 1;\n//     object = CreateDimensional(dimSet_);\n//     AssertDimensionals(object, dimSet_);\n// }",
+			"length",
+			"DimensionalSet",
+			"lengthA",
+			"mass",
+			"_.",
+			"= ",
+			"dimSet",
+			"_;",
+			"return ",
+			"Unit",
+			"(*object).",
+			"AssertDimensionals",
+			"AssertUnits",
+			"Eq(",
+			"CreateDimensional",
+			"Dimensional(",
+			"CreateUnit",
+			"CreateBasicUnit",
+			"testUnit",
+			"unitless",
+			"Zetta",
+			"Exa",
+			"Peta",
+			"Megameter",
+			"\"Ym\"",
+			"\"Zm\"",
+			"\"Em\"",
+			"\"Pm\"",
+			"\"Tm\"",
+			"\"Gm\"",
+			"\"Mm\"",
+			"\"km\"",
+			"\"µm\"",
+			"\"nm\"",
+			"\"pm\"",
+			"fm",
+			"\"am\"",
+			"\"zm\"",
+			"expectedAbbreviation_",
+			"Meter",
+			"a",
+			"f",
+			"p",
+			"micro",
+			"return",
+			"micro",
+			"MagnitudeEncoder",
+			"orderOfMagnitude_",
+			"Length",
+			"length",
+			"Length",
+			"TRUE",
+			"Token::IToken",
+			"	",
+			"TestValidIntegerString",
+			"NumberStringTester",
+			"TestNonIntegers",
+			"TestValidIntegers",
+			"TOKEN",
+			"word",
+			"Word",
+			"PluginRegistrationServiceWithRegisteredPlugin",
+			"MockPluginToRegister",
+			"__",
+			"(PluginRegistrationServiceWill",
+			"_reg",
+			"_reg,",
+			"forService",
+			"IProviderStorageService",
+			"IPluginRegistrarFactory",
+			"__",
+			"PluginRegistrarProviderConstructedEmpty",
+			"T(ConstructRegistrarProvider",
+			"Factory",
+			"FACTORY",
+			"rovider",
+			"Factory",
+			"FACTORY",
+			"MGenericPlugin",
+			"ockPlugin",
+			"MockPlugin",
+			"\"exPlugin\"",
+			"IPluginInstarceConstructed",
+			"Location",
+			"libLocation_SRCS"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			" double",
+			"double",
+			"",
+			"double"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "untitled.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

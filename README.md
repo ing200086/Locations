@@ -21,6 +21,9 @@ LocationContext Street("Linden Street");
 LocationContext Number("13");
 LocationContext Unit("2B");
 
+LocationContextStringWriter Writer();
+Writer.setDelimiter(" ");
+
 // Linking graph from top down
 City
   .has(Street)
@@ -37,8 +40,8 @@ City
 ASSERT_THAT(Unit.describe(), Eq("2B"));
 
 //Using a Context should return however the writer should apply
-ASSERT_THAT(Unit.describe(new BottomToTopContextWriter().setDelimiter(" ")), Eq("2B 13 Linden Street Houston TX 77022 USA"));
-ASSERT_THAT(City.describe(new BottomToTopContextWriter().setDelimiter(" ")), Eq("Houston TX 77022 USA"));
+ASSERT_THAT(Writer.describe(Unit), Eq("2B 13 Linden Street Houston TX 77022 USA"));
+ASSERT_THAT(Writer.describe(City), Eq("Houston TX 77022 USA"));
 
 ```
 ## Creating a LocationGraph which has a combination of two nodes
@@ -55,8 +58,12 @@ LocationContext River("Yellow River").isWithin(City);
 City.has(Street);
 Street.intersects(CrossStreet);
 
-LocationContext myLocation("Person A").isBetween(Tree).and(Building).and(River);
+LocationContext myIntersection().intersectionOf(Street).and(CrossStreet);
+LocationContext myLocation().isBetween(Tree).and(Building).and(River);
 
-ASSERT_THAT(myLocationIntersection.toString(), Eq("Intersection of Linden Street and Main Street Houston"));
-ASSERT_THAT(myLocationBetween.toString(), Eq("Between Big Tree, City Hall, and Yellow River Houston"));
+LocationContextStringWriter Writer();
+Writer.setDelimiter(" ");
+
+ASSERT_THAT(Writer.describe(myIntersection), Eq("Intersection of Linden Street and Main Street Houston"));
+ASSERT_THAT(Writer.describe(myLocation), Eq("Between Big Tree, City Hall, and Yellow River Houston"));
 ```
