@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock-complete.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-install.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-mkdir.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-download.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-update.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-patch.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-configure.rule"
+		},
+		{
+			"file" : "/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gmock"
+		],
+		"name" : "gmock"
+	}
+}

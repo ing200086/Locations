@@ -1,0 +1,35 @@
+Start testing: Mar 04 11:02 CST
+----------------------------------------------------------
+1/1 Testing: UT_LocationContext
+1/1 Test: UT_LocationContext
+Command: "/home/daniel/Workspace/Locations/build/test/Unit/LocationContext/UT_LocationContext"
+Directory: /home/daniel/Workspace/Locations/build/test/Unit/LocationContext
+"UT_LocationContext" start time: Mar 04 11:02 CST
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from NodeCan
+[ RUN      ] NodeCan.LinkToAnotherNode
+[       OK ] NodeCan.LinkToAnotherNode (0 ms)
+[----------] 1 test from NodeCan (0 ms total)
+
+[----------] 2 tests from RelationshipsCan
+[ RUN      ] RelationshipsCan.BeDefinedDirectlyAndTested
+[       OK ] RelationshipsCan.BeDefinedDirectlyAndTested (0 ms)
+[ RUN      ] RelationshipsCan.BeDefinedIndirectlyAndTested
+[       OK ] RelationshipsCan.BeDefinedIndirectlyAndTested (0 ms)
+[----------] 2 tests from RelationshipsCan (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UT_LocationContext" end time: Mar 04 11:02 CST
+"UT_LocationContext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 04 11:02 CST
