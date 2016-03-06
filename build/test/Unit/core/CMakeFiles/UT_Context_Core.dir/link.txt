@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=gnu++0x   CMakeFiles/UT_Context_Core.dir/TestUniqueCollection.cpp.o CMakeFiles/UT_Context_Core.dir/__/main.cpp.o  -o UT_Context_Core -rdynamic ../../../src/core/libContext_Core.a ../../gtest/src/gtest-build/libgtest.a ../../gmock/src/gmock-build/libgmock.a -lpthread 

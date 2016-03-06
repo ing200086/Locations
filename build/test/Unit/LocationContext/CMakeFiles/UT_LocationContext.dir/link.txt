@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=gnu++0x   CMakeFiles/UT_LocationContext.dir/TestContextRelationships.cpp.o CMakeFiles/UT_LocationContext.dir/__/main.cpp.o  -o UT_LocationContext -rdynamic ../../../src/core/libContext_Core.a ../../gtest/src/gtest-build/libgtest.a ../../gmock/src/gmock-build/libgmock.a -lpthread 

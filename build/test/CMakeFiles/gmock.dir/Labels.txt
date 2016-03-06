@@ -1,0 +1,13 @@
+# Target labels
+ gmock
+# Source files and their labels
+/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock
+/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock.rule
+/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock-complete.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-install.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-mkdir.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-download.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-update.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-patch.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-configure.rule
+/home/daniel/Workspace/Locations/build/test/gmock/src/gmock-stamp/gmock-build.rule

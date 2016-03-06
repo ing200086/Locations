@@ -1,0 +1,87 @@
+Start testing: Mar 06 10:04 CST
+----------------------------------------------------------
+1/2 Testing: UT_LocationContext
+1/2 Test: UT_LocationContext
+Command: "/home/daniel/Workspace/Locations/build/test/Unit/LocationContext/UT_LocationContext"
+Directory: /home/daniel/Workspace/Locations/build/test/Unit/LocationContext
+"UT_LocationContext" start time: Mar 06 10:04 CST
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RelationshipsCan
+[ RUN      ] RelationshipsCan.BeDefinedDirectlyAndTestedNegative
+[       OK ] RelationshipsCan.BeDefinedDirectlyAndTestedNegative (0 ms)
+[ RUN      ] RelationshipsCan.BeDefinedDirectlyAndTested
+[       OK ] RelationshipsCan.BeDefinedDirectlyAndTested (0 ms)
+[ RUN      ] RelationshipsCan.BeDefinedIndirectlyAndTested
+[       OK ] RelationshipsCan.BeDefinedIndirectlyAndTested (0 ms)
+[ RUN      ] RelationshipsCan.BeDefinedIndirectlyAndTestedRegardlessOfLinks
+[       OK ] RelationshipsCan.BeDefinedIndirectlyAndTestedRegardlessOfLinks (0 ms)
+[----------] 4 tests from RelationshipsCan (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UT_LocationContext" end time: Mar 06 10:04 CST
+"UT_LocationContext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: UT_Context_Core
+2/2 Test: UT_Context_Core
+Command: "/home/daniel/Workspace/Locations/build/test/Unit/core/UT_Context_Core"
+Directory: /home/daniel/Workspace/Locations/build/test/Unit/core
+"UT_Context_Core" start time: Mar 06 10:04 CST
+Output:
+----------------------------------------------------------
+[==========] Running 15 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 15 tests from TestUniqueCollection
+[ RUN      ] TestUniqueCollection.InitializedEmpty
+[       OK ] TestUniqueCollection.InitializedEmpty (0 ms)
+[ RUN      ] TestUniqueCollection.CanTestForElementsItDoesNotContain
+[       OK ] TestUniqueCollection.CanTestForElementsItDoesNotContain (0 ms)
+[ RUN      ] TestUniqueCollection.CanAddAndVerifyElements
+[       OK ] TestUniqueCollection.CanAddAndVerifyElements (0 ms)
+[ RUN      ] TestUniqueCollection.CanStringAddTogetherAndVerifyElements
+[       OK ] TestUniqueCollection.CanStringAddTogetherAndVerifyElements (0 ms)
+[ RUN      ] TestUniqueCollection.CanGetCollectionSize
+[       OK ] TestUniqueCollection.CanGetCollectionSize (0 ms)
+[ RUN      ] TestUniqueCollection.OnlyAcceptsUniqueElements
+[       OK ] TestUniqueCollection.OnlyAcceptsUniqueElements (0 ms)
+[ RUN      ] TestUniqueCollection.OnlyAcceptsUniqueElementsFromCollection
+[       OK ] TestUniqueCollection.OnlyAcceptsUniqueElementsFromCollection (0 ms)
+[ RUN      ] TestUniqueCollection.CanVerifyOneCollectionIsSubSet
+[       OK ] TestUniqueCollection.CanVerifyOneCollectionIsSubSet (0 ms)
+[ RUN      ] TestUniqueCollection.CanClearElements
+[       OK ] TestUniqueCollection.CanClearElements (0 ms)
+[ RUN      ] TestUniqueCollection.EqualityReturnsFalseForUnequalCollections
+[       OK ] TestUniqueCollection.EqualityReturnsFalseForUnequalCollections (0 ms)
+[ RUN      ] TestUniqueCollection.EqualityReturnsTrueForEqualCollections
+[       OK ] TestUniqueCollection.EqualityReturnsTrueForEqualCollections (0 ms)
+[ RUN      ] TestUniqueCollection.CanTestIfCollectionsAreEqualEvenInDifferentOrder
+[       OK ] TestUniqueCollection.CanTestIfCollectionsAreEqualEvenInDifferentOrder (0 ms)
+[ RUN      ] TestUniqueCollection.CanAddOneCollectionToAnother
+[       OK ] TestUniqueCollection.CanAddOneCollectionToAnother (0 ms)
+[ RUN      ] TestUniqueCollection.CanFilterOneCollectionUsingAnother
+[       OK ] TestUniqueCollection.CanFilterOneCollectionUsingAnother (0 ms)
+[ RUN      ] TestUniqueCollection.CanFilterOneCollectionUsingAnotherCompletely
+[       OK ] TestUniqueCollection.CanFilterOneCollectionUsingAnotherCompletely (0 ms)
+[----------] 15 tests from TestUniqueCollection (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 15 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UT_Context_Core" end time: Mar 06 10:04 CST
+"UT_Context_Core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 10:04 CST

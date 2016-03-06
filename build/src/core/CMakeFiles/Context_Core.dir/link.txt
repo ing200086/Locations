@@ -1,0 +1,2 @@
+/usr/bin/ar cq libContext_Core.a  
+/usr/bin/ranlib libContext_Core.a
