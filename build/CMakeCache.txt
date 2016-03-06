@@ -169,6 +169,7 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+<<<<<<< HEAD
 Context_Core_BINARY_DIR:STATIC=/home/daniel/Workspace/Locations/build/src/core
 
 //Dependencies for target
@@ -178,18 +179,23 @@ Context_Core_LIB_DEPENDS:STATIC=
 Context_Core_SOURCE_DIR:STATIC=/home/daniel/Workspace/Locations/src/core
 
 //Value Computed by CMake
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 LocationContextMapping_BINARY_DIR:STATIC=/home/daniel/Workspace/Locations/build
 
 //Value Computed by CMake
 LocationContextMapping_SOURCE_DIR:STATIC=/home/daniel/Workspace/Locations
 
 //Value Computed by CMake
+<<<<<<< HEAD
 UT_Context_Core_BINARY_DIR:STATIC=/home/daniel/Workspace/Locations/build/test/Unit/core
 
 //Value Computed by CMake
 UT_Context_Core_SOURCE_DIR:STATIC=/home/daniel/Workspace/Locations/test/Unit/core
 
 //Value Computed by CMake
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 UT_LocationContext_BINARY_DIR:STATIC=/home/daniel/Workspace/Locations/build/test/Unit/LocationContext
 
 //Value Computed by CMake
@@ -294,7 +300,11 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
+<<<<<<< HEAD
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=7
+=======
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

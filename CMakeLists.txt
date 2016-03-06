@@ -8,4 +8,8 @@ endif()
 enable_testing()
 
 add_subdirectory(test)
+<<<<<<< HEAD
 add_subdirectory(src)
+=======
+# add_subdirectory(src)
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225

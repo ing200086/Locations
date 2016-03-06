@@ -78,7 +78,11 @@ test/preinstall: test/Unit/preinstall
 test/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  5 6 7 8 9 10 11 12
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  3 4 5 6 7 8 9 10
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 	@echo "Built target gmock"
 .PHONY : test/CMakeFiles/gmock.dir/all
 
@@ -113,7 +117,11 @@ clean: test/CMakeFiles/gmock.dir/clean
 test/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  13 14 15 16 17 18 19 20
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  11 12 13 14 15 16 17 18
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 	@echo "Built target gtest"
 .PHONY : test/CMakeFiles/gtest.dir/all
 
@@ -146,17 +154,26 @@ clean: test/CMakeFiles/gtest.dir/clean
 
 # Convenience name for "all" pass in the directory.
 test/Unit/all: test/Unit/LocationContext/all
+<<<<<<< HEAD
 test/Unit/all: test/Unit/core/all
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 .PHONY : test/Unit/all
 
 # Convenience name for "clean" pass in the directory.
 test/Unit/clean: test/Unit/LocationContext/clean
+<<<<<<< HEAD
 test/Unit/clean: test/Unit/core/clean
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 .PHONY : test/Unit/clean
 
 # Convenience name for "preinstall" pass in the directory.
 test/Unit/preinstall: test/Unit/LocationContext/preinstall
+<<<<<<< HEAD
 test/Unit/preinstall: test/Unit/core/preinstall
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 .PHONY : test/Unit/preinstall
 
 #=============================================================================
@@ -178,12 +195,20 @@ test/Unit/LocationContext/preinstall:
 # Target rules for target test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir
 
 # All Build rule for target.
+<<<<<<< HEAD
 test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all: test/CMakeFiles/gtest.dir/all
 test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all: test/CMakeFiles/gmock.dir/all
 test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all: src/core/CMakeFiles/Context_Core.dir/all
 	$(MAKE) -f test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/depend
 	$(MAKE) -f test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  3 4
+=======
+test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all: test/CMakeFiles/gmock.dir/all
+test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all: test/CMakeFiles/gtest.dir/all
+	$(MAKE) -f test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/depend
+	$(MAKE) -f test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/Locations/build/CMakeFiles  1 2
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 	@echo "Built target UT_LocationContext"
 .PHONY : test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/all
 
@@ -212,6 +237,7 @@ clean: test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/clean
 .PHONY : clean
 
 #=============================================================================
+<<<<<<< HEAD
 # Directory level rules for directory test/Unit/core
 
 # Convenience name for "all" pass in the directory.
@@ -329,6 +355,8 @@ clean: src/core/CMakeFiles/Context_Core.dir/clean
 .PHONY : clean
 
 #=============================================================================
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -150,6 +150,7 @@ UT_LocationContext/fast:
 	$(MAKE) -f test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build
 .PHONY : UT_LocationContext/fast
 
+<<<<<<< HEAD
 #=============================================================================
 # Target rules for targets named UT_Context_Core
 
@@ -176,6 +177,8 @@ Context_Core/fast:
 	$(MAKE) -f src/core/CMakeFiles/Context_Core.dir/build.make src/core/CMakeFiles/Context_Core.dir/build
 .PHONY : Context_Core/fast
 
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,8 +191,11 @@ help:
 	@echo "... gtest"
 	@echo "... gmock"
 	@echo "... UT_LocationContext"
+<<<<<<< HEAD
 	@echo "... UT_Context_Core"
 	@echo "... Context_Core"
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 .PHONY : help
 
 

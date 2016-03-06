@@ -13,12 +13,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.2.2/CMakeSystem.cmake"
   "test/gmock/tmp/gmock-cfgcmd.txt.in"
   "test/gtest/tmp/gtest-cfgcmd.txt.in"
+<<<<<<< HEAD
   "../src/CMakeLists.txt"
   "../src/core/CMakeLists.txt"
   "../test/CMakeLists.txt"
   "../test/Unit/CMakeLists.txt"
   "../test/Unit/LocationContext/CMakeLists.txt"
   "../test/Unit/core/CMakeLists.txt"
+=======
+  "../test/CMakeLists.txt"
+  "../test/Unit/CMakeLists.txt"
+  "../test/Unit/LocationContext/CMakeLists.txt"
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake"
@@ -56,9 +62,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/LocationContext/CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< HEAD
   "test/Unit/core/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/core/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
   )
 
 # Dependency information for all targets:
@@ -66,6 +75,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/CMakeFiles/gmock.dir/DependInfo.cmake"
   "test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "test/Unit/core/CMakeFiles/UT_Context_Core.dir/DependInfo.cmake"
   "src/core/CMakeFiles/Context_Core.dir/DependInfo.cmake"
+=======
+>>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
   )
