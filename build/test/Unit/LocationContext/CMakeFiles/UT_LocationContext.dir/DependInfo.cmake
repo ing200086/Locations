@@ -11,20 +11,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-<<<<<<< HEAD
   "/home/daniel/Workspace/Locations/build/src/core/CMakeFiles/Context_Core.dir/DependInfo.cmake"
-=======
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
   )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "test/gtest/src/gtest/include"
   "test/gmock/src/gmock/include"
-<<<<<<< HEAD
   "../src/core/include"
-=======
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

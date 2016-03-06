@@ -35,10 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/daniel/Workspace/Locations/build/test/cmake_install.cmake")
-<<<<<<< HEAD
   include("/home/daniel/Workspace/Locations/build/src/cmake_install.cmake")
-=======
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 
 endif()
 

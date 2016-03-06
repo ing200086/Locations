@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 /home/daniel/Workspace/Locations/build/test/Unit/core/CMakeFiles/UT_Context_Core.dir
 /home/daniel/Workspace/Locations/build/test/CMakeFiles/gtest.dir
 /home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock.dir
 /home/daniel/Workspace/Locations/build/src/core/CMakeFiles/Context_Core.dir
-=======
-/home/daniel/Workspace/Locations/build/test/CMakeFiles/gtest.dir
-/home/daniel/Workspace/Locations/build/test/CMakeFiles/gmock.dir
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 /home/daniel/Workspace/Locations/build/test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir

@@ -6,7 +6,6 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 ../src/core/include/UniqueCollection.h
 vector
 -
@@ -22,19 +21,10 @@ algorithm
 -
 
 /home/daniel/Workspace/Locations/test/Unit/LocationContext/TestContextRelationships.cpp
-Relationship.h
-/home/daniel/Workspace/Locations/test/Unit/LocationContext/Relationship.h
 Node.h
 /home/daniel/Workspace/Locations/test/Unit/LocationContext/Node.h
-=======
-/home/daniel/Workspace/Locations/test/Unit/LocationContext/TestContextRelationships.cpp
-string
--
-vector
--
-algorithm
--
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
+Relationship.h
+/home/daniel/Workspace/Locations/test/Unit/LocationContext/Relationship.h
 gmock/gmock.h
 /home/daniel/Workspace/Locations/test/Unit/LocationContext/gmock/gmock.h
 

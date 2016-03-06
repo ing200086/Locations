@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-UT_LocationContext 163 8.52164e-06
-UT_Context_Core 73 1.95471e-05
-=======
-UT_LocationContext 28 4.92505e-05
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
+UT_LocationContext 1 0.00194502
+UT_Context_Core 1 0.0014379
 ---

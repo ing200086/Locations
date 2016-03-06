@@ -106,10 +106,7 @@ UT_LocationContext_EXTERNAL_OBJECTS =
 test/Unit/LocationContext/UT_LocationContext: test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/TestContextRelationships.cpp.o
 test/Unit/LocationContext/UT_LocationContext: test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/__/main.cpp.o
 test/Unit/LocationContext/UT_LocationContext: test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/build.make
-<<<<<<< HEAD
 test/Unit/LocationContext/UT_LocationContext: src/core/libContext_Core.a
-=======
->>>>>>> af55415a7e607f755b5031f161ba20ed72f45225
 test/Unit/LocationContext/UT_LocationContext: test/gtest/src/gtest-build/libgtest.a
 test/Unit/LocationContext/UT_LocationContext: test/gmock/src/gmock-build/libgmock.a
 test/Unit/LocationContext/UT_LocationContext: test/Unit/LocationContext/CMakeFiles/UT_LocationContext.dir/link.txt
