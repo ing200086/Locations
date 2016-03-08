@@ -22,13 +22,11 @@ A relational graph should be able to do the following.
   class RelationNode {
     IUuid* _vertexA;
     IUuid* _vertexB;
-    string _relation;
   public:
-    RelationNode(EntityWithId &A, EntityWithId &B, string &relation) 
-      _vertexA(A), _vertexB(B), _relation(relation) {}
+    RelationNode(EntityWithId &A, EntityWithId &B) 
+      _vertexA(A), _vertexB(B) {}
     IUuid* A() const {return _vertexA;}
-    IUuid* B() const {return _vertexA;}
-    string Relation() const {return _relation;}
+    IUuid* B() const {return _vertexB;}
   };
   ```
   ```c++
@@ -36,8 +34,8 @@ A relational graph should be able to do the following.
     vector<RelationNode*> _set;
   public:
     RelationSet() {}
-    void add(IUuid &A, IUuid &B, string &relation) {
-      add(new RelationNode(A, B, relation));
+    void add(IUuid &A, IUuid &B) {
+      add(new RelationNode(A, B));
     }
     void add(RelationNode &relation) {
       _set.push_back(relation);
