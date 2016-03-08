@@ -14,16 +14,11 @@ A relational graph should be able to do the following.
   
 #### Example implementation
   ```c++
-  class EntityWithId {
-    IUuid *id()=0;
-  };
-  ```
-  ```c++
   class RelationNode {
     IUuid* _vertexA;
     IUuid* _vertexB;
   public:
-    RelationNode(EntityWithId &A, EntityWithId &B) 
+    RelationNode(IUuid &A, IUuid &B) 
       _vertexA(A), _vertexB(B) {}
     IUuid* A() const {return _vertexA;}
     IUuid* B() const {return _vertexB;}
