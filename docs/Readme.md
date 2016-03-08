@@ -37,7 +37,10 @@ A relational graph should be able to do the following.
   public:
     RelationSet() {}
     void add(IUuid &A, IUuid &B, string &relation) {
-      _set.push_back(new RelationNode(A, B, relation));
+      add(new RelationNode(A, B, relation));
+    }
+    void add(RelationNode &relation) {
+      _set.push_back(relation);
     }
   };
   ```
