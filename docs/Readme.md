@@ -16,19 +16,27 @@ A relational graph should be able to do the following.
   class EntityWithId {
     IUuid *id()=0;
   };
-  
+  ```
+  ```c++
   class RelationNode {
-    Uuid* _vertexA;
-    Uuid* _vertexB;
-    
+    IUuid* _vertexA;
+    IUuid* _vertexB;
     string _relation;
-    
   public:
     RelationNode(EntityWithId &A, EntityWithId &B, string &relation) 
       _vertexA(A), _vertexB(B), _relation(relation) {}
-    
-    Uuid* A() const {return _vertexA;}
-    Uuid* B() const {return _vertexA;}
+    IUuid* A() const {return _vertexA;}
+    IUuid* B() const {return _vertexA;}
     string Relation() const {return _relation;}
+  };
+  ```
+  ```c++
+  class RelationSet {
+    vector<RelationNode*> _set;
+  public:
+    RelationSet() {}
+    void add(IUuid &A, IUuid &B, string &relation) {
+      _set.push_back(new RelationNode(A, B, relation));
+    }
   };
   ```
