@@ -11,6 +11,9 @@ A relational graph should be able to do the following.
 * Identify what type of relationship the entities have  
   - Could be initially default meaning no context, but expanded to "has, within, nextTo, etc." later.  
 * Have the ability to find a path between two entities (by unique id)  
+* 
+
+Relation Sets can hold relation sets and relation nodes...
   
 #### Example implementation
   ```c++
@@ -25,7 +28,7 @@ A relational graph should be able to do the following.
   };
   ```
   ```c++
-  class RelationSet {
+  class AbstractRelationSet {
     vector<RelationNode*> _set;
   public:
     RelationSet() {}
@@ -35,5 +38,7 @@ A relational graph should be able to do the following.
     void add(RelationNode &relation) {
       _set.push_back(relation);
     }
+    
+    virtual string relationType() const = 0;
   };
   ```
