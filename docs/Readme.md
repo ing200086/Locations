@@ -17,28 +17,23 @@ Relation Sets can hold relation sets and relation nodes...
   
 #### Example implementation
   ```c++
-  class RelationNode {
-    IUuid* _vertexA;
-    IUuid* _vertexB;
-  public:
-    RelationNode(IUuid &A, IUuid &B) 
-      _vertexA(A), _vertexB(B) {}
-    IUuid* A() const {return _vertexA;}
-    IUuid* B() const {return _vertexB;}
-  };
+template <typename T>
+class RelationNode {
+    T* _nodeFrom;
+    T* _nodeTo;
+    
+public:
+    RelationNode(T &nodeFrom, T &nodeTo): _nodeFrom(&nodeFrom), _nodeTo(&nodeTo) {  }
+    
+    T* from() const {return _nodeFrom;}
+    T* to() const {return _nodeTo;}
+};
   ```
   ```c++
-  class AbstractRelationSet {
-    vector<RelationNode*> _set;
-  public:
-    RelationSet() {}
-    void add(IUuid &A, IUuid &B) {
-      add(new RelationNode(A, B));
-    }
-    void add(RelationNode &relation) {
-      _set.push_back(relation);
-    }
-    
-    virtual string relationType() const = 0;
-  };
+template <typename T>
+class RelationNodeSet {
+    std::vector <T> _set;
+public:
+    //void add(RelationNode<T> &relation) { _set.push_back(&relation); }
+};
   ```
